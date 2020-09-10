@@ -370,6 +370,11 @@ p {
 			display: flex;
 			justify-content: center;
 			padding-left: 4rem;
+
+			@include respond(tab-port) {
+				padding-left: 1rem;
+				padding-right: 1rem;
+			}
 			ul {
 				li {
 					font-size: 2rem;

@@ -376,6 +376,13 @@ p {
   padding-left: 4rem;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .lower .response__block--list {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 .lower .response__block--list ul li {
   font-size: 2rem;
   padding-top: 2.5rem;
