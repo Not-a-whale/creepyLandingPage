@@ -139,14 +139,6 @@ p {
   }
 }
 
-@media only screen and (max-width: 56.25em) {
-  .row .col-1-of-2 {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
 .row .col-1-of-3 {
   width: calc((100% - 2 * 6rem) / 3);
 }
@@ -238,6 +230,7 @@ p {
 }
 
 .lower .response {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url("/assets/scorchedearth.jpg");
   min-height: 50rem;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -330,6 +323,7 @@ p {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   cursor: pointer;
+  font-family: "VT323", monospace;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -357,12 +351,6 @@ p {
 @media only screen and (max-width: 75em) {
   .lower .response .form {
     padding-left: 2rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 
