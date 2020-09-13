@@ -270,6 +270,10 @@ p {
 		&__block {
 			justify-content: center;
 			padding-top: 3rem;
+
+			@include respond(tab-port) {
+				padding-bottom: 0;
+			}
 		}
 
 		.form {
@@ -366,6 +370,10 @@ p {
 			@include respond(tab-land) {
 				padding-left: 2rem;
 			}
+
+			@include respond(phone) {
+				padding-left: 0;
+			}
 		}
 
 		&__block--list {
@@ -378,6 +386,10 @@ p {
 				padding-right: 1rem;
 			}
 			ul {
+				@include respond(tab-land) {
+					width: 80%;
+				}
+
 				li {
 					font-size: 2rem;
 					padding-top: 2.5rem;

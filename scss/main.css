@@ -250,6 +250,12 @@ p {
   padding-top: 3rem;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .lower .response__block {
+    padding-bottom: 0;
+  }
+}
+
 .lower .response .form__heading {
   font-size: 3rem;
   text-align: center;
@@ -354,6 +360,12 @@ p {
   }
 }
 
+@media only screen and (max-width: 48em) {
+  .lower .response .form {
+    padding-left: 0;
+  }
+}
+
 .lower .response__block--list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -368,6 +380,12 @@ p {
   .lower .response__block--list {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 75em) {
+  .lower .response__block--list ul {
+    width: 80%;
   }
 }
 
