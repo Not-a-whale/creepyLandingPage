@@ -15,7 +15,7 @@ const logger = winston.createLogger({
 const app = express();
 
 // Static assets.
-app.use(express.static("/public", path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public")));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
