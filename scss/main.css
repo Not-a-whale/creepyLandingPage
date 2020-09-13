@@ -356,12 +356,6 @@ p {
 
 @media only screen and (max-width: 75em) {
   .lower .response .form {
-    padding-left: 2rem;
-  }
-}
-
-@media only screen and (max-width: 48em) {
-  .lower .response .form {
     padding-left: 0;
   }
 }
